@@ -17,7 +17,8 @@ const listContacts = async () => {
 const getContactById = async (contactId) => {
     try {
         const allContacts = await listContacts();
-        const contact = allContacts / findSourceMap((item) => item.id === contactId);
+        const contact = allContacts.find((item) => item.id === contactId);
+        
         return contact || null;
     } catch (error) {
         console.log(error);
