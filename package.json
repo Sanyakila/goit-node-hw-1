@@ -1,0 +1,22 @@
+{
+  "name": "node-js-hw-1",
+  "version": "1.0.0",
+  "description": "homework-1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "goit-node-hw-1"
+  },
+  "author": "Sanyakila",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^4.0.2",
+    "nodemon": "^2.0.22"
+  }
+}
